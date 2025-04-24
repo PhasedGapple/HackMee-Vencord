@@ -20,7 +20,7 @@ Make sure you have Vencord installed for it to work.
 Dist directorys:
 Windows: "%AppData%\Vencord\dist"
 On other platforms, open the Vencord installer and click the butten Open Directory next to "Files will be downloaded to: ...".
-# Manually:
+### Manually:
 replace the files in the Dist directory with:
 -   patcher.js.map
 -   patcher.js.LEGAL.txt
@@ -32,13 +32,10 @@ replace the files in the Dist directory with:
 -   renderer.js.map
 -   renderer.js.LEGAL.txt
 -   renderer.js
-# Replace.bat (Windows only)
+###  Replace.bat (Windows only)
 -   Download [install.bat](https://github.com/PhasedGapple/HackMee-Vencord/releases/download/devbuild/install.bat)
 -   Run install.bat
 -   restart discord
-## Join our Support/Community Server
-
-https://discord.gg/D9uwnFnqmd
 
 ## Sponsors
 
