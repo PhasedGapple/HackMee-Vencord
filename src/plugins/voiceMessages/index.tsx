@@ -90,7 +90,7 @@ function sendAudio(blob: Blob, meta: AudioMetadata) {
     if (reply) FluxDispatcher.dispatch({ type: "DELETE_PENDING_REPLY", channelId });
 
     const upload = new CloudUpload({
-        file: new File([blob], "voice-message.ogg", { type: "audio/ogg; codecs=opus" }),
+        file: new File([blob], "voice-message.ogg", { type: "audio/ogg; codecs=opus" }), // "voice-message.ogg" is the default voice message name
         isThumbnail: false,
         platform: 1,
     }, channelId, false, 0);
@@ -116,7 +116,7 @@ function sendAudio(blob: Blob, meta: AudioMetadata) {
             }
         });
     });
-    upload.on("error", () => showToast("Failed to upload voice message", Toasts.Type.FAILURE));
+    upload.on("error", () => showToast("Failed to upload voice message, please try again.", Toasts.Type.FAILURE));
 
     upload.upload();
 }
