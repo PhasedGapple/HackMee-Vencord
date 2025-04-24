@@ -18,16 +18,16 @@ NOT the cutest Discord client mod, though still a Vencord fork.
 
 Make sure you have Vencord installed.
 replace the files in "~\AppData\Roaming\Vencord\dist" with:
--patcher.js.map
--patcher.js.LEGAL.txt
--patcher.js
--preload.js.map
--preload.js
--renderer.css.map
--renderer.css
--renderer.js.map
--renderer.js.LEGAL.txt
--renderer.js
+-   patcher.js.map
+-   patcher.js.LEGAL.txt
+-   patcher.js
+-   preload.js.map
+-   preload.js
+-   renderer.css.map
+-   renderer.css
+-   renderer.js.map
+-   renderer.js.LEGAL.txt
+-   renderer.js
 
 ## Join our Support/Community Server
 
