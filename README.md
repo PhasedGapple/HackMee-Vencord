@@ -12,6 +12,7 @@ NOT the cutest Discord client mod, though still a Vencord fork.
 -   [betterQuests](https://github.com/D3SOX/vc-voiceChatUtilities) plugin
 -   [VoiceChatUtilities](https://github.com/meowabyte/VencordPlugins/tree/main/betterQuests) plugin
 -   [AntiRickRoll](https://github.com/ryawaa/vencord-antirickroll) plugin
+-   Your pull requests are more likely to be implemented
 
 
 ## Installing / Uninstalling
