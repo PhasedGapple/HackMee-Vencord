@@ -56,7 +56,7 @@ jobs:
                   gh release edit devbuild --title "DevBuild $RELEASE_TAG"
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                  RELEASE_TAG: ${{ env.release_tag }}
+                  RELEASE_TAG: "Minor DevBuild"
 
             - name: Upload DevBuild to builds repo
               if: github.repository == 'Vendicated/Vencord'
