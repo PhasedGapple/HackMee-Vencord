@@ -10,8 +10,8 @@ NOT the cutest Discord client mod, though still a Vencord fork.
 
 -   Every Vencord feature
 -   [FollowUser](https://github.com/D3SOX/vc-followUser) plugin
--   [Enhanced SilentTyping](https://github.com/D3SOX/vc-silentTypingEnhanced) plugin
--   [betterQuests](https://github.com/D3SOX/vc-voiceChatUtilities) plugin
+-   [Enhanced SilentTyping](https://github.com/D3SOX/vc-silentTypingEnhanced) plugin | Temporary gone
+-   [betterQuests](https://github.com/D3SOX/vc-voiceChatUtilities) plugin | Temporary gone
 -   [VoiceChatUtilities](https://github.com/meowabyte/VencordPlugins/tree/main/betterQuests) plugin
 -   [AntiRickRoll](https://github.com/ryawaa/vencord-antirickroll) plugin
 -   Your pull requests are more likely to be implemented
