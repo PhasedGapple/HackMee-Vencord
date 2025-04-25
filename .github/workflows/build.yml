@@ -54,7 +54,7 @@ jobs:
               run: |
                   if ! gh release view devbuild; then
                     echo "Release not found. Creating release."
-                    gh release create devbuild --title "DevBuild $RELEASE_TAG" --notes "Minor DevBuild"
+                    gh release create devbuild --title "Fixes - $RELEASE_TAG" --notes "Removed faulty plugins + readded followUser"
                   fi
                   gh release upload devbuild --clobber dist/*
                   gh release edit devbuild --title "DevBuild $RELEASE_TAG"
